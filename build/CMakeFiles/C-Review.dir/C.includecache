@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/cmake_practice.h
+stdio.h
+-
+
+/home/do/Projects/Gits/C-Review/src/main.c
+stdio.h
+-
+cmake_practice.h
+-
+

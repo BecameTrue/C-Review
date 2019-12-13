@@ -1,0 +1,3 @@
+/home/do/Projects/Gits/C-Review/build/CMakeFiles/rebuild_cache.dir
+/home/do/Projects/Gits/C-Review/build/CMakeFiles/C-Review.dir
+/home/do/Projects/Gits/C-Review/build/CMakeFiles/edit_cache.dir
