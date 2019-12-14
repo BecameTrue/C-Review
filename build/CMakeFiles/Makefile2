@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/do/Projects/Gits/C-Review/build
 CMakeFiles/C-Review.dir/all:
 	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/depend
 	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=1,2 "Built target C-Review"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target C-Review"
 .PHONY : CMakeFiles/C-Review.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/C-Review.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/C-Review.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/do/Projects/Gits/C-Review/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/do/Projects/Gits/C-Review/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/C-Review.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/do/Projects/Gits/C-Review/build/CMakeFiles 0
 .PHONY : CMakeFiles/C-Review.dir/rule

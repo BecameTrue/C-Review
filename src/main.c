@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <cmake_practice.h>
+#include <bit_field.h>
+#include <pointers.h>
 
 int main(void) {
-    printf("-------------------------------\n");
-    printf("How did I build this project\n");
-    printf("-------------------------------\n");
-
     howToBuild();
+    howBitFieldWorks();
+    howPointerWorks();
 }

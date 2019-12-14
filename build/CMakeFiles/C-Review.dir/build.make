@@ -57,9 +57,57 @@ include CMakeFiles/C-Review.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C-Review.dir/flags.make
 
+CMakeFiles/C-Review.dir/src/bit_field.c.o: CMakeFiles/C-Review.dir/flags.make
+CMakeFiles/C-Review.dir/src/bit_field.c.o: ../src/bit_field.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C-Review.dir/src/bit_field.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C-Review.dir/src/bit_field.c.o   -c /home/do/Projects/Gits/C-Review/src/bit_field.c
+
+CMakeFiles/C-Review.dir/src/bit_field.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C-Review.dir/src/bit_field.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/do/Projects/Gits/C-Review/src/bit_field.c > CMakeFiles/C-Review.dir/src/bit_field.c.i
+
+CMakeFiles/C-Review.dir/src/bit_field.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C-Review.dir/src/bit_field.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/do/Projects/Gits/C-Review/src/bit_field.c -o CMakeFiles/C-Review.dir/src/bit_field.c.s
+
+CMakeFiles/C-Review.dir/src/bit_field.c.o.requires:
+
+.PHONY : CMakeFiles/C-Review.dir/src/bit_field.c.o.requires
+
+CMakeFiles/C-Review.dir/src/bit_field.c.o.provides: CMakeFiles/C-Review.dir/src/bit_field.c.o.requires
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/bit_field.c.o.provides.build
+.PHONY : CMakeFiles/C-Review.dir/src/bit_field.c.o.provides
+
+CMakeFiles/C-Review.dir/src/bit_field.c.o.provides.build: CMakeFiles/C-Review.dir/src/bit_field.c.o
+
+
+CMakeFiles/C-Review.dir/src/cmake_practice.c.o: CMakeFiles/C-Review.dir/flags.make
+CMakeFiles/C-Review.dir/src/cmake_practice.c.o: ../src/cmake_practice.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/C-Review.dir/src/cmake_practice.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C-Review.dir/src/cmake_practice.c.o   -c /home/do/Projects/Gits/C-Review/src/cmake_practice.c
+
+CMakeFiles/C-Review.dir/src/cmake_practice.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C-Review.dir/src/cmake_practice.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/do/Projects/Gits/C-Review/src/cmake_practice.c > CMakeFiles/C-Review.dir/src/cmake_practice.c.i
+
+CMakeFiles/C-Review.dir/src/cmake_practice.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C-Review.dir/src/cmake_practice.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/do/Projects/Gits/C-Review/src/cmake_practice.c -o CMakeFiles/C-Review.dir/src/cmake_practice.c.s
+
+CMakeFiles/C-Review.dir/src/cmake_practice.c.o.requires:
+
+.PHONY : CMakeFiles/C-Review.dir/src/cmake_practice.c.o.requires
+
+CMakeFiles/C-Review.dir/src/cmake_practice.c.o.provides: CMakeFiles/C-Review.dir/src/cmake_practice.c.o.requires
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/cmake_practice.c.o.provides.build
+.PHONY : CMakeFiles/C-Review.dir/src/cmake_practice.c.o.provides
+
+CMakeFiles/C-Review.dir/src/cmake_practice.c.o.provides.build: CMakeFiles/C-Review.dir/src/cmake_practice.c.o
+
+
 CMakeFiles/C-Review.dir/src/main.c.o: CMakeFiles/C-Review.dir/flags.make
 CMakeFiles/C-Review.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C-Review.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/C-Review.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C-Review.dir/src/main.c.o   -c /home/do/Projects/Gits/C-Review/src/main.c
 
 CMakeFiles/C-Review.dir/src/main.c.i: cmake_force
@@ -81,17 +129,73 @@ CMakeFiles/C-Review.dir/src/main.c.o.provides: CMakeFiles/C-Review.dir/src/main.
 CMakeFiles/C-Review.dir/src/main.c.o.provides.build: CMakeFiles/C-Review.dir/src/main.c.o
 
 
+CMakeFiles/C-Review.dir/src/pointers.c.o: CMakeFiles/C-Review.dir/flags.make
+CMakeFiles/C-Review.dir/src/pointers.c.o: ../src/pointers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/C-Review.dir/src/pointers.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C-Review.dir/src/pointers.c.o   -c /home/do/Projects/Gits/C-Review/src/pointers.c
+
+CMakeFiles/C-Review.dir/src/pointers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C-Review.dir/src/pointers.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/do/Projects/Gits/C-Review/src/pointers.c > CMakeFiles/C-Review.dir/src/pointers.c.i
+
+CMakeFiles/C-Review.dir/src/pointers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C-Review.dir/src/pointers.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/do/Projects/Gits/C-Review/src/pointers.c -o CMakeFiles/C-Review.dir/src/pointers.c.s
+
+CMakeFiles/C-Review.dir/src/pointers.c.o.requires:
+
+.PHONY : CMakeFiles/C-Review.dir/src/pointers.c.o.requires
+
+CMakeFiles/C-Review.dir/src/pointers.c.o.provides: CMakeFiles/C-Review.dir/src/pointers.c.o.requires
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/pointers.c.o.provides.build
+.PHONY : CMakeFiles/C-Review.dir/src/pointers.c.o.provides
+
+CMakeFiles/C-Review.dir/src/pointers.c.o.provides.build: CMakeFiles/C-Review.dir/src/pointers.c.o
+
+
+CMakeFiles/C-Review.dir/src/print_manager.c.o: CMakeFiles/C-Review.dir/flags.make
+CMakeFiles/C-Review.dir/src/print_manager.c.o: ../src/print_manager.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/C-Review.dir/src/print_manager.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C-Review.dir/src/print_manager.c.o   -c /home/do/Projects/Gits/C-Review/src/print_manager.c
+
+CMakeFiles/C-Review.dir/src/print_manager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C-Review.dir/src/print_manager.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/do/Projects/Gits/C-Review/src/print_manager.c > CMakeFiles/C-Review.dir/src/print_manager.c.i
+
+CMakeFiles/C-Review.dir/src/print_manager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C-Review.dir/src/print_manager.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/do/Projects/Gits/C-Review/src/print_manager.c -o CMakeFiles/C-Review.dir/src/print_manager.c.s
+
+CMakeFiles/C-Review.dir/src/print_manager.c.o.requires:
+
+.PHONY : CMakeFiles/C-Review.dir/src/print_manager.c.o.requires
+
+CMakeFiles/C-Review.dir/src/print_manager.c.o.provides: CMakeFiles/C-Review.dir/src/print_manager.c.o.requires
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/print_manager.c.o.provides.build
+.PHONY : CMakeFiles/C-Review.dir/src/print_manager.c.o.provides
+
+CMakeFiles/C-Review.dir/src/print_manager.c.o.provides.build: CMakeFiles/C-Review.dir/src/print_manager.c.o
+
+
 # Object files for target C-Review
 C__Review_OBJECTS = \
-"CMakeFiles/C-Review.dir/src/main.c.o"
+"CMakeFiles/C-Review.dir/src/bit_field.c.o" \
+"CMakeFiles/C-Review.dir/src/cmake_practice.c.o" \
+"CMakeFiles/C-Review.dir/src/main.c.o" \
+"CMakeFiles/C-Review.dir/src/pointers.c.o" \
+"CMakeFiles/C-Review.dir/src/print_manager.c.o"
 
 # External object files for target C-Review
 C__Review_EXTERNAL_OBJECTS =
 
+C-Review: CMakeFiles/C-Review.dir/src/bit_field.c.o
+C-Review: CMakeFiles/C-Review.dir/src/cmake_practice.c.o
 C-Review: CMakeFiles/C-Review.dir/src/main.c.o
+C-Review: CMakeFiles/C-Review.dir/src/pointers.c.o
+C-Review: CMakeFiles/C-Review.dir/src/print_manager.c.o
 C-Review: CMakeFiles/C-Review.dir/build.make
 C-Review: CMakeFiles/C-Review.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable C-Review"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable C-Review"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C-Review.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +203,11 @@ CMakeFiles/C-Review.dir/build: C-Review
 
 .PHONY : CMakeFiles/C-Review.dir/build
 
+CMakeFiles/C-Review.dir/requires: CMakeFiles/C-Review.dir/src/bit_field.c.o.requires
+CMakeFiles/C-Review.dir/requires: CMakeFiles/C-Review.dir/src/cmake_practice.c.o.requires
 CMakeFiles/C-Review.dir/requires: CMakeFiles/C-Review.dir/src/main.c.o.requires
+CMakeFiles/C-Review.dir/requires: CMakeFiles/C-Review.dir/src/pointers.c.o.requires
+CMakeFiles/C-Review.dir/requires: CMakeFiles/C-Review.dir/src/print_manager.c.o.requires
 
 .PHONY : CMakeFiles/C-Review.dir/requires
 

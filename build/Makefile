@@ -123,6 +123,60 @@ C-Review/fast:
 	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/build
 .PHONY : C-Review/fast
 
+src/bit_field.o: src/bit_field.c.o
+
+.PHONY : src/bit_field.o
+
+# target to build an object file
+src/bit_field.c.o:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/bit_field.c.o
+.PHONY : src/bit_field.c.o
+
+src/bit_field.i: src/bit_field.c.i
+
+.PHONY : src/bit_field.i
+
+# target to preprocess a source file
+src/bit_field.c.i:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/bit_field.c.i
+.PHONY : src/bit_field.c.i
+
+src/bit_field.s: src/bit_field.c.s
+
+.PHONY : src/bit_field.s
+
+# target to generate assembly for a file
+src/bit_field.c.s:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/bit_field.c.s
+.PHONY : src/bit_field.c.s
+
+src/cmake_practice.o: src/cmake_practice.c.o
+
+.PHONY : src/cmake_practice.o
+
+# target to build an object file
+src/cmake_practice.c.o:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/cmake_practice.c.o
+.PHONY : src/cmake_practice.c.o
+
+src/cmake_practice.i: src/cmake_practice.c.i
+
+.PHONY : src/cmake_practice.i
+
+# target to preprocess a source file
+src/cmake_practice.c.i:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/cmake_practice.c.i
+.PHONY : src/cmake_practice.c.i
+
+src/cmake_practice.s: src/cmake_practice.c.s
+
+.PHONY : src/cmake_practice.s
+
+# target to generate assembly for a file
+src/cmake_practice.c.s:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/cmake_practice.c.s
+.PHONY : src/cmake_practice.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -150,6 +204,60 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/pointers.o: src/pointers.c.o
+
+.PHONY : src/pointers.o
+
+# target to build an object file
+src/pointers.c.o:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/pointers.c.o
+.PHONY : src/pointers.c.o
+
+src/pointers.i: src/pointers.c.i
+
+.PHONY : src/pointers.i
+
+# target to preprocess a source file
+src/pointers.c.i:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/pointers.c.i
+.PHONY : src/pointers.c.i
+
+src/pointers.s: src/pointers.c.s
+
+.PHONY : src/pointers.s
+
+# target to generate assembly for a file
+src/pointers.c.s:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/pointers.c.s
+.PHONY : src/pointers.c.s
+
+src/print_manager.o: src/print_manager.c.o
+
+.PHONY : src/print_manager.o
+
+# target to build an object file
+src/print_manager.c.o:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/print_manager.c.o
+.PHONY : src/print_manager.c.o
+
+src/print_manager.i: src/print_manager.c.i
+
+.PHONY : src/print_manager.i
+
+# target to preprocess a source file
+src/print_manager.c.i:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/print_manager.c.i
+.PHONY : src/print_manager.c.i
+
+src/print_manager.s: src/print_manager.c.s
+
+.PHONY : src/print_manager.s
+
+# target to generate assembly for a file
+src/print_manager.c.s:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/print_manager.c.s
+.PHONY : src/print_manager.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... C-Review"
 	@echo "... edit_cache"
+	@echo "... src/bit_field.o"
+	@echo "... src/bit_field.i"
+	@echo "... src/bit_field.s"
+	@echo "... src/cmake_practice.o"
+	@echo "... src/cmake_practice.i"
+	@echo "... src/cmake_practice.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/pointers.o"
+	@echo "... src/pointers.i"
+	@echo "... src/pointers.s"
+	@echo "... src/print_manager.o"
+	@echo "... src/print_manager.i"
+	@echo "... src/print_manager.s"
 .PHONY : help
 
 

@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/do/Projects/Gits/C-Review/src/bit_field.c" "/home/do/Projects/Gits/C-Review/build/CMakeFiles/C-Review.dir/src/bit_field.c.o"
+  "/home/do/Projects/Gits/C-Review/src/cmake_practice.c" "/home/do/Projects/Gits/C-Review/build/CMakeFiles/C-Review.dir/src/cmake_practice.c.o"
   "/home/do/Projects/Gits/C-Review/src/main.c" "/home/do/Projects/Gits/C-Review/build/CMakeFiles/C-Review.dir/src/main.c.o"
+  "/home/do/Projects/Gits/C-Review/src/pointers.c" "/home/do/Projects/Gits/C-Review/build/CMakeFiles/C-Review.dir/src/pointers.c.o"
+  "/home/do/Projects/Gits/C-Review/src/print_manager.c" "/home/do/Projects/Gits/C-Review/build/CMakeFiles/C-Review.dir/src/print_manager.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -6,13 +6,49 @@
 
 #IncludeRegexTransform: 
 
+../include/bit_field.h
+
 ../include/cmake_practice.h
+
+../include/pointers.h
+
+../include/print_manager.h
+
+/home/do/Projects/Gits/C-Review/src/bit_field.c
 stdio.h
+-
+bit_field.h
+-
+print_manager.h
+-
+
+/home/do/Projects/Gits/C-Review/src/cmake_practice.c
+stdio.h
+-
+print_manager.h
 -
 
 /home/do/Projects/Gits/C-Review/src/main.c
 stdio.h
 -
 cmake_practice.h
+-
+bit_field.h
+-
+pointers.h
+-
+
+/home/do/Projects/Gits/C-Review/src/pointers.c
+stdio.h
+-
+print_manager.h
+-
+pointers.h
+-
+
+/home/do/Projects/Gits/C-Review/src/print_manager.c
+stdio.h
+-
+print_manager.h
 -
 

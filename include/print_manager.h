@@ -1,0 +1,2 @@
+void printLine();
+void printMarginOnBottom();
