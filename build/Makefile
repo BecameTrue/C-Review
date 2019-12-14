@@ -177,6 +177,33 @@ src/cmake_practice.c.s:
 	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/cmake_practice.c.s
 .PHONY : src/cmake_practice.c.s
 
+src/function_pointer.o: src/function_pointer.c.o
+
+.PHONY : src/function_pointer.o
+
+# target to build an object file
+src/function_pointer.c.o:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/function_pointer.c.o
+.PHONY : src/function_pointer.c.o
+
+src/function_pointer.i: src/function_pointer.c.i
+
+.PHONY : src/function_pointer.i
+
+# target to preprocess a source file
+src/function_pointer.c.i:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/function_pointer.c.i
+.PHONY : src/function_pointer.c.i
+
+src/function_pointer.s: src/function_pointer.c.s
+
+.PHONY : src/function_pointer.s
+
+# target to generate assembly for a file
+src/function_pointer.c.s:
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/function_pointer.c.s
+.PHONY : src/function_pointer.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -273,6 +300,9 @@ help:
 	@echo "... src/cmake_practice.o"
 	@echo "... src/cmake_practice.i"
 	@echo "... src/cmake_practice.s"
+	@echo "... src/function_pointer.o"
+	@echo "... src/function_pointer.i"
+	@echo "... src/function_pointer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

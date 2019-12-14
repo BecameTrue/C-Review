@@ -1,15 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <print_manager.h>
 #include <pointers.h>
 
 void howPointerWorks() {
     int arr[3][3] = {
-        {0, 1, 2},
+        {123, 1, 2},
         {3, 4, 5},
         {6, 7, 8}
     };
     int i, j;
-
+    void* voidPtr;
     int* ptr = (int*) arr;
 
     printLine();
@@ -22,5 +23,17 @@ void howPointerWorks() {
         ptr++;
     }
     printf("To assign array to pointer, need CASTING.\n");
+
+    printLine();
+
+    printf("\nA void pointer is a pointer that has no associated data type with it.\n");
+    printf("It's advantage is that we can allocate memory of any data type.\n\n");
+
+    voidPtr = (int*)malloc(sizeof(int));
+    *(int*)voidPtr = 456;
+
+    printf("voidPtr = (int*)malloc(sizeof(int)));\n*(int*)voidPtr = 456;\nprintf(\"%%d\", *(int*)voidPtr);\n");
+    printf(">> %d\n", *(int*)voidPtr);
+
     printMarginOnBottom();
 }

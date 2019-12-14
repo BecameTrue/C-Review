@@ -7,9 +7,9 @@ void howBitFieldWorks() {
     printf("How bit field works\n");
     printLine();
 
-    struct Flags flag = {0, };
+    Flags flag = {0, };
 
-    printf("size of flag = %lu Bytes\n", sizeof(struct Flags));
+    printf("size of flag = %lu Bytes\n", sizeof(Flags));
 
     flag.a = 4;
     printf("flag.a = 4  : 100\n");

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/do/Projects/Gits/C-Review/src/bit_field.c" "/home/do/Projects/Gits/C-Review/build/CMakeFiles/C-Review.dir/src/bit_field.c.o"
   "/home/do/Projects/Gits/C-Review/src/cmake_practice.c" "/home/do/Projects/Gits/C-Review/build/CMakeFiles/C-Review.dir/src/cmake_practice.c.o"
+  "/home/do/Projects/Gits/C-Review/src/function_pointer.c" "/home/do/Projects/Gits/C-Review/build/CMakeFiles/C-Review.dir/src/function_pointer.c.o"
   "/home/do/Projects/Gits/C-Review/src/main.c" "/home/do/Projects/Gits/C-Review/build/CMakeFiles/C-Review.dir/src/main.c.o"
   "/home/do/Projects/Gits/C-Review/src/pointers.c" "/home/do/Projects/Gits/C-Review/build/CMakeFiles/C-Review.dir/src/pointers.c.o"
   "/home/do/Projects/Gits/C-Review/src/print_manager.c" "/home/do/Projects/Gits/C-Review/build/CMakeFiles/C-Review.dir/src/print_manager.c.o"

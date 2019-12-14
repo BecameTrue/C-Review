@@ -1,4 +1,4 @@
-struct Flags {
+typedef struct FlagsStruct {
     union {    // 익명 공용체
         struct {    // 익명 구조체
             unsigned short a : 3;    // a는 3비트 크기
@@ -8,6 +8,6 @@ struct Flags {
         };                           // 합계 16비트
         unsigned short e;    // 2바이트(16비트)
     };
-};
+} Flags;
 
 void howBitFieldWorks();

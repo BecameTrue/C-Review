@@ -10,6 +10,8 @@
 
 ../include/cmake_practice.h
 
+../include/function_pointer.h
+
 ../include/pointers.h
 
 ../include/print_manager.h
@@ -28,6 +30,14 @@ stdio.h
 print_manager.h
 -
 
+/home/do/Projects/Gits/C-Review/src/function_pointer.c
+stdio.h
+-
+stdlib.h
+-
+print_manager.h
+-
+
 /home/do/Projects/Gits/C-Review/src/main.c
 stdio.h
 -
@@ -37,9 +47,13 @@ bit_field.h
 -
 pointers.h
 -
+function_pointer.h
+-
 
 /home/do/Projects/Gits/C-Review/src/pointers.c
 stdio.h
+-
+stdlib.h
 -
 print_manager.h
 -

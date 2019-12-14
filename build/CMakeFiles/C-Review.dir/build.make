@@ -105,9 +105,33 @@ CMakeFiles/C-Review.dir/src/cmake_practice.c.o.provides: CMakeFiles/C-Review.dir
 CMakeFiles/C-Review.dir/src/cmake_practice.c.o.provides.build: CMakeFiles/C-Review.dir/src/cmake_practice.c.o
 
 
+CMakeFiles/C-Review.dir/src/function_pointer.c.o: CMakeFiles/C-Review.dir/flags.make
+CMakeFiles/C-Review.dir/src/function_pointer.c.o: ../src/function_pointer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/C-Review.dir/src/function_pointer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C-Review.dir/src/function_pointer.c.o   -c /home/do/Projects/Gits/C-Review/src/function_pointer.c
+
+CMakeFiles/C-Review.dir/src/function_pointer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C-Review.dir/src/function_pointer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/do/Projects/Gits/C-Review/src/function_pointer.c > CMakeFiles/C-Review.dir/src/function_pointer.c.i
+
+CMakeFiles/C-Review.dir/src/function_pointer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C-Review.dir/src/function_pointer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/do/Projects/Gits/C-Review/src/function_pointer.c -o CMakeFiles/C-Review.dir/src/function_pointer.c.s
+
+CMakeFiles/C-Review.dir/src/function_pointer.c.o.requires:
+
+.PHONY : CMakeFiles/C-Review.dir/src/function_pointer.c.o.requires
+
+CMakeFiles/C-Review.dir/src/function_pointer.c.o.provides: CMakeFiles/C-Review.dir/src/function_pointer.c.o.requires
+	$(MAKE) -f CMakeFiles/C-Review.dir/build.make CMakeFiles/C-Review.dir/src/function_pointer.c.o.provides.build
+.PHONY : CMakeFiles/C-Review.dir/src/function_pointer.c.o.provides
+
+CMakeFiles/C-Review.dir/src/function_pointer.c.o.provides.build: CMakeFiles/C-Review.dir/src/function_pointer.c.o
+
+
 CMakeFiles/C-Review.dir/src/main.c.o: CMakeFiles/C-Review.dir/flags.make
 CMakeFiles/C-Review.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/C-Review.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/C-Review.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C-Review.dir/src/main.c.o   -c /home/do/Projects/Gits/C-Review/src/main.c
 
 CMakeFiles/C-Review.dir/src/main.c.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/C-Review.dir/src/main.c.o.provides.build: CMakeFiles/C-Review.dir/src
 
 CMakeFiles/C-Review.dir/src/pointers.c.o: CMakeFiles/C-Review.dir/flags.make
 CMakeFiles/C-Review.dir/src/pointers.c.o: ../src/pointers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/C-Review.dir/src/pointers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/C-Review.dir/src/pointers.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C-Review.dir/src/pointers.c.o   -c /home/do/Projects/Gits/C-Review/src/pointers.c
 
 CMakeFiles/C-Review.dir/src/pointers.c.i: cmake_force
@@ -155,7 +179,7 @@ CMakeFiles/C-Review.dir/src/pointers.c.o.provides.build: CMakeFiles/C-Review.dir
 
 CMakeFiles/C-Review.dir/src/print_manager.c.o: CMakeFiles/C-Review.dir/flags.make
 CMakeFiles/C-Review.dir/src/print_manager.c.o: ../src/print_manager.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/C-Review.dir/src/print_manager.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/C-Review.dir/src/print_manager.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C-Review.dir/src/print_manager.c.o   -c /home/do/Projects/Gits/C-Review/src/print_manager.c
 
 CMakeFiles/C-Review.dir/src/print_manager.c.i: cmake_force
@@ -181,6 +205,7 @@ CMakeFiles/C-Review.dir/src/print_manager.c.o.provides.build: CMakeFiles/C-Revie
 C__Review_OBJECTS = \
 "CMakeFiles/C-Review.dir/src/bit_field.c.o" \
 "CMakeFiles/C-Review.dir/src/cmake_practice.c.o" \
+"CMakeFiles/C-Review.dir/src/function_pointer.c.o" \
 "CMakeFiles/C-Review.dir/src/main.c.o" \
 "CMakeFiles/C-Review.dir/src/pointers.c.o" \
 "CMakeFiles/C-Review.dir/src/print_manager.c.o"
@@ -190,12 +215,13 @@ C__Review_EXTERNAL_OBJECTS =
 
 C-Review: CMakeFiles/C-Review.dir/src/bit_field.c.o
 C-Review: CMakeFiles/C-Review.dir/src/cmake_practice.c.o
+C-Review: CMakeFiles/C-Review.dir/src/function_pointer.c.o
 C-Review: CMakeFiles/C-Review.dir/src/main.c.o
 C-Review: CMakeFiles/C-Review.dir/src/pointers.c.o
 C-Review: CMakeFiles/C-Review.dir/src/print_manager.c.o
 C-Review: CMakeFiles/C-Review.dir/build.make
 C-Review: CMakeFiles/C-Review.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable C-Review"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/do/Projects/Gits/C-Review/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable C-Review"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C-Review.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -205,6 +231,7 @@ CMakeFiles/C-Review.dir/build: C-Review
 
 CMakeFiles/C-Review.dir/requires: CMakeFiles/C-Review.dir/src/bit_field.c.o.requires
 CMakeFiles/C-Review.dir/requires: CMakeFiles/C-Review.dir/src/cmake_practice.c.o.requires
+CMakeFiles/C-Review.dir/requires: CMakeFiles/C-Review.dir/src/function_pointer.c.o.requires
 CMakeFiles/C-Review.dir/requires: CMakeFiles/C-Review.dir/src/main.c.o.requires
 CMakeFiles/C-Review.dir/requires: CMakeFiles/C-Review.dir/src/pointers.c.o.requires
 CMakeFiles/C-Review.dir/requires: CMakeFiles/C-Review.dir/src/print_manager.c.o.requires

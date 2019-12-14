@@ -8,8 +8,12 @@ CMakeFiles/C-Review.dir/src/bit_field.c.o: ../src/bit_field.c
 CMakeFiles/C-Review.dir/src/cmake_practice.c.o: ../include/print_manager.h
 CMakeFiles/C-Review.dir/src/cmake_practice.c.o: ../src/cmake_practice.c
 
+CMakeFiles/C-Review.dir/src/function_pointer.c.o: ../include/print_manager.h
+CMakeFiles/C-Review.dir/src/function_pointer.c.o: ../src/function_pointer.c
+
 CMakeFiles/C-Review.dir/src/main.c.o: ../include/bit_field.h
 CMakeFiles/C-Review.dir/src/main.c.o: ../include/cmake_practice.h
+CMakeFiles/C-Review.dir/src/main.c.o: ../include/function_pointer.h
 CMakeFiles/C-Review.dir/src/main.c.o: ../include/pointers.h
 CMakeFiles/C-Review.dir/src/main.c.o: ../src/main.c
 
