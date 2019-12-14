@@ -92,7 +92,7 @@ int main()
 	// address of the function A as argument 
 	B(ptr); 
 
-return 0; 
+	return 0; 
 } 
 ```
 
